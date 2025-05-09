@@ -17,18 +17,18 @@ Diferente do comando “ Host ” do Linux, esse script tem o seu tempo de execu
 
 4. **Compile o arquivo usando o GCC**. O comando para compilar é o seguinte:
   Bash (Terminal Linux)
-   gcc DnsResolver.c -o DnsResolver
    ```
-   Aqui, `-o DnsResolver` especifica o nome do executável que será gerado. Você pode escolher qualquer nome que desejar.
-
+      gcc DnsResolver.c -o DnsResolver
+  Aqui, `-o DnsResolver` especifica o nome do executável que será gerado. Você pode escolher qualquer nome que desejar.
 5. **Execute o programa**. Após a compilação, você deve ver um novo arquivo chamado `DnsResolver` (ou o nome que você escolheu). Para executar:
    - No Linux ou macOS:
-    Bash (Terminal Linux)
-    #./DnsResolver
-     
+    Bash (Terminal Linux) 
+     ```
+     ./DnsResolver
    - No Windows:
     cmd (Terminal do Windows)
-     #DnsResolver.exe
-     ```
+    ```
+    DnsResolver.exe
+    
 
 Se houver algum erro durante a compilação, você verá mensagens no terminal que podem ajudá-lo a identificar e corrigir problemas no seu código.
